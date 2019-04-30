@@ -51,9 +51,14 @@ console.log("This house is nice!".filterWords(['house', 'nice']));
 //Observable
 console.log("Observable");
 
+String.prototype.filterWords = function(arr){
+    const { from } = rxjs;
+    const { reduce } = rxjs.operators;
 
-const {of} = rxjs;
-const {map} = rxjs.operators;
+    let str = this;
+    let obj$ = from(arr).pipe(reduce((str1, word)=> str1.replace(word, "***"), this));
+    obj$.subscribe(x=>str = x);
+    return str;
+};
 
-
-
+console.log("This house is nice!".filterWords(['house', 'nice']));
