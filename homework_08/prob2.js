@@ -1,3 +1,7 @@
+
+Suggestion to tune Library application performance:
+The scenario to query students who are late returning books are frequently happened,
+    then we should index borrowedBy, borrowedDate
 //Books collection
 {
     _id: objectId,

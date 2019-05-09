@@ -1,0 +1,34 @@
+{
+  "name":"MUM",
+  "category":"university",
+  "location":[-91.9665342, 41.017654]
+}
+
+{
+  "name":"Sweet 'n Saucy",
+  "category":"food",
+  "location":[-91.9653561, 41.0092213]
+}
+
+{
+  "name":"Imperial Buffet",
+  "category":"food",
+  "location":[-91.9671317, 41.00757116]
+}
+
+{
+  "name":"Fairfield Public Library",
+  "category":"library",
+  "location":[-91.9673813, 41.00812415]
+}
+
+{
+  "name":"Walmart Supercenter",
+  "category":"store",
+  "location":[-91.9965247, 41.00949423]
+}
+
+
+
+
+
